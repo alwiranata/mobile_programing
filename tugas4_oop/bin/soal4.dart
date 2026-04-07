@@ -33,8 +33,8 @@ class PegawaiKontrak extends Pegawai {
 }
 
 void main() {
-  PegawaiTetap pegawai1 = PegawaiTetap("Aldo Wiranata", 2000000, 400000);
-  PegawaiKontrak pegawai2 = PegawaiKontrak("Wiranata", 30, 100000);
+  Pegawai pegawai1 = PegawaiTetap("Aldo Wiranata", 2000000, 400000);
+  Pegawai pegawai2 = PegawaiKontrak("Wiranata", 30, 100000);
 
   print("Pegawai Tetap");
   print("Nama: ${pegawai1.nama}");
